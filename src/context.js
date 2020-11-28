@@ -7,7 +7,7 @@ class ProductProvider extends Component {
   state = {
     products: [],
     detailProduct: detailProduct,
-    cart: storeProducts,
+    cart: [],
     modalOpen: false,
     modalProduct: detailProduct,
     cartSubTotal: 0,
@@ -67,7 +67,7 @@ class ProductProvider extends Component {
   increment = (id) => {
     console.log(`this is increment method for id ${id}`);
   };
-  dectement = (id) => {
+  decrement = (id) => {
     console.log(`this is decrement method for id ${id}`);
   };
   removeItem = (id) => {
@@ -86,7 +86,7 @@ class ProductProvider extends Component {
           openModal: this.openModal,
           closeModal: this.closeModal,
           increment: this.increment,
-          dectement: this.dectement,
+          decrement: this.decrement,
           removeItem: this.removeItem,
           clearCart: this.clearCart,
         }}>
