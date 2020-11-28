@@ -3,7 +3,14 @@ import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Cart, Default, Details, Navbar, ProductList } from './components';
+import {
+  Cart,
+  Default,
+  Details,
+  Navbar,
+  ProductList,
+  Modal,
+} from './components';
 
 function App() {
   return (
@@ -15,6 +22,7 @@ function App() {
         <Route path='/cart' component={Cart} />
         <Route component={Default} />
       </Switch>
+      <Modal />
     </>
   );
 }
