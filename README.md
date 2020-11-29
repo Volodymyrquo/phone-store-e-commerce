@@ -1,6 +1,6 @@
 # Phone Store e-commerce
-###[Live Site](https://vquo-phone-store-gh.netlify.app/)
-![Phone store e-commerce application](https://ibb.co/BtxNJYG/phone-store.png)
+### [Live Site](https://vquo-phone-store-gh.netlify.app/)
+![Phone store e-commerce application](https://i.ibb.co/7X54D0Q/phone-store.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
