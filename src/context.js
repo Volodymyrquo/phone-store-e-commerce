@@ -82,6 +82,7 @@ class ProductProvider extends Component {
       },
       () => {
         this.setProducts();
+        this.addTotals();
       }
     );
   };
