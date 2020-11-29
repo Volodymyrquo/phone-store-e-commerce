@@ -3,6 +3,7 @@ import { ProductConsumer } from '../../context';
 import Title from '../Title';
 import CartColumns from './CartColumns';
 import CartList from './CartList';
+import CartTotals from './CartTotals';
 import EmptyCart from './EmptyCart';
 
 export default class Cart extends Component {
@@ -18,6 +19,7 @@ export default class Cart extends Component {
                   <Title name='your' title='cart' />
                   <CartColumns />
                   <CartList value={value} />
+                  <CartTotals value={value} />
                 </>
               );
             } else {
