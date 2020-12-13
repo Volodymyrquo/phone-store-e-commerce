@@ -1,5 +1,6 @@
 # Phone Store e-commerce
 ### [Live Site](https://vquo-phone-store-gh.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f485d4da-2029-44c8-81e1-a07929d107ba/deploy-status)](https://app.netlify.com/sites/vquo-phone-store-gh/deploys)
 ![Phone store e-commerce application](https://i.ibb.co/7X54D0Q/phone-store.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
